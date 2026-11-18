@@ -1,0 +1,1 @@
+Slice means within each volume–organ pair, then means over available volume pairs per organ. Missing values are blank; no invented values.

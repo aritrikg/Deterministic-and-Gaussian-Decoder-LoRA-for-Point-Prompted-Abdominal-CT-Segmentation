@@ -1,0 +1,1 @@
+All-pixel, GT-foreground and two-pixel GT-boundary Brier scores. Foreground-conditioned scores are diagnostics of false-negative confidence, not complete probability calibration. Scores do not alone validate epistemic uncertainty or clinical reliability.

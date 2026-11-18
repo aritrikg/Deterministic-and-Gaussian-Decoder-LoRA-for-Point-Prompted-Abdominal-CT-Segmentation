@@ -1,0 +1,13 @@
+BALoRA additional evaluation figures
+
+SOURCE: BALoRA_Strengthening_v5_Results (3).zip
+analysis/per_organ.csv (mean Dice across 6 patient volumes for each of 13 organs and 3 primary models)
+analysis/uncertainty_per_target.csv (2,466 prompt-target rows per model, per score, region=all)
+analysis/regional_calibration.csv (ECE for all, GT foreground, GT boundary regions)
+ROC and PR: per-model failure label Dice < 0.5. Larger mean_uncertainty flags failure.
+Because labels are method-dependent, between-model AUROC and AP are descriptive, not same-label direct comparisons.
+AP depends on prevalence; 837/2466, 189/2466 and 200/2466 per method.
+Do not use GT_boundary_2px uncertainty for deployment failure detection because region is ground-truth-conditioned.
+Actual pixel-level confusion matrices cannot be determined from available summary scores.
+Test-set reliability diagrams cannot be determined from ECE/Brier/NLL aggregates alone.
+No synthetic figures or reconstructed pixels were used. All charts from archived aggregate/target scores.

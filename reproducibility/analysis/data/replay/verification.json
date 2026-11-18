@@ -1,0 +1,97 @@
+{
+  "status": "VERIFIED",
+  "archive_sha256": "cb995e6bb075c3ea4113762fb819dd4a916a08c8f9e604c4f56ee05133386d0a",
+  "identity": {
+    "archive_sha256": "ccc8581ea2b5dfac4909056585448a9121f6e1d2a122352f6039d5680c185340",
+    "backbone_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "cuda": "12.8",
+    "gpu": "Tesla T4",
+    "sam2_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+    "scope": "full",
+    "source_sha256": "a7e374762e483e86a9f465c02e47372e188d0795640d49a39ec21a3296f8c0b5",
+    "test_data_sha256": {
+      "img0009": {
+        "image": "e6ab156af5ba766d2603c2cb21e15de7911fb9b46e156eb2cdc686bb73798ea3",
+        "label": "5c70469e39fc4ac44cddd54f59690dd18644fbc90d80bbc9ffb41ab802a6f183"
+      },
+      "img0010": {
+        "image": "96f4bc5f1cc84c0d47946d7b4346fc05cd16c7800d81d2f501b9b00cc9081beb",
+        "label": "8fce7e64e0a01f3e324fa870fa284739208383fb9acbf0ac78ee0cecceeb31c2"
+      },
+      "img0026": {
+        "image": "a3df297b7dd88de73450c145ff0d8db12d84b56cd1c3893d69bf165e53c1bb94",
+        "label": "9717f623fcee7147edea2ab8fa58e972e9a48b0b088e77a56e7a688bf19fed9e"
+      },
+      "img0028": {
+        "image": "119443a4940db030b460f56fccf2a88bc87a2d00af6b97100992d33a49f9042c",
+        "label": "5e6f3acbc66c4f86328747d87d237f504422ea90591a80bde45d5305e66af45c"
+      },
+      "img0034": {
+        "image": "49a644af1e83aed6d90900dab24b9842ad9c8156495be9ad03240508abd7010c",
+        "label": "5759876bff6718ac90f8496e5bae3dce7f36ad440ef92427d4ec76f2cbb77749"
+      },
+      "img0038": {
+        "image": "8ba9f553924274cf27d8c81940ca0b26bccea0e40fe1d3928d801f6a32755715",
+        "label": "61523073a150f3441b8c4e6cef6517a0b071eef1a9ba7cbc00b18f0dff3b0830"
+      }
+    },
+    "versions": {
+      "hydra-core": "1.3.2",
+      "iopath": "0.1.10",
+      "matplotlib": "3.10.0",
+      "nibabel": "5.4.2",
+      "numpy": "2.1.3",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.6.1",
+      "scipy": "1.16.3",
+      "tensorboard": "2.20.0",
+      "torch": "2.11.0+cu128"
+    },
+    "weight_sha256": {
+      "balora": "cb0d82ca0b01cb4328ef6afa1c54e246c42093c3320efd519b931063398da0ec",
+      "deterministic": "40ff778fe706fda8ebac4ad9b5bd5215a2c1e6b89674f654016b22a54dff70d8"
+    }
+  },
+  "slice_records": 1840,
+  "variant_prompt_rows": 19728,
+  "coverage": {
+    "deterministic": {
+      "scope_complete": true,
+      "slices": 460,
+      "targets": 2466
+    },
+    "frozen": {
+      "scope_complete": true,
+      "slices": 460,
+      "targets": 2466
+    },
+    "gaussian_fixed_sd": {
+      "scope_complete": true,
+      "slices": 460,
+      "targets": 2466
+    },
+    "gaussian_learned": {
+      "scope_complete": true,
+      "slices": 460,
+      "targets": 2466
+    }
+  },
+  "max_primary_dice_replay_error": 0,
+  "rank_counts": {
+    "gaussian_fixed_sd": {
+      "16": 2825,
+      "4": 51978,
+      "8": 24109
+    },
+    "gaussian_learned": {
+      "16": 2938,
+      "4": 39566,
+      "8": 36408
+    }
+  },
+  "encoder_mean_of_slice_medians_ms": {
+    "balora": 145.91977183340532,
+    "deterministic": 145.88219275007455,
+    "difference_ms": -0.03757908333075951
+  }
+}

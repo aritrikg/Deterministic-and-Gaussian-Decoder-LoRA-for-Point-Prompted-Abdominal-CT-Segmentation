@@ -1,0 +1,125 @@
+{
+  "sam2": {
+    "checkpoint": "/kaggle/working/checkpoints/sam2.1_hiera_base_plus.pt",
+    "checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "freeze_backbone": true,
+    "git_ref": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+    "model_cfg": "configs/sam2.1/sam2.1_hiera_b+.yaml",
+    "repo": "https://github.com/facebookresearch/sam2.git",
+    "resolved_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4"
+  },
+  "data": {
+    "cache_dir": "/kaggle/working/balora_deterministic_lora_control_v1/raw_volume_cache",
+    "clip_len": 1,
+    "ct_window": [
+      -175.0,
+      250.0
+    ],
+    "dataset": "btcv",
+    "fold": 0,
+    "foreground_only": true,
+    "image_size": 1024,
+    "n_folds": 5,
+    "num_classes": 14,
+    "root_dir": "/kaggle/input/datasets/aritrikghosh/btcv-abdominal-ct/RawData/Training",
+    "sam2_image_size": 1024,
+    "split_seed": 42,
+    "test_split": "/kaggle/working/balora_deterministic_lora_control_v1/splits/test.json",
+    "train_split": "/kaggle/working/balora_deterministic_lora_control_v1/splits/train.json",
+    "val_fraction": 0.15,
+    "val_split": "/kaggle/working/balora_deterministic_lora_control_v1/splits/validation.json"
+  },
+  "training": {
+    "amp": true,
+    "batch_size": 1,
+    "checkpoint_every": 5,
+    "checkpoint_seconds": 300,
+    "early_stopping_patience": 6,
+    "grad_clip_norm": 1.0,
+    "lr": 0.0001,
+    "min_epochs": 8,
+    "num_epochs": 20,
+    "num_workers": 0,
+    "val_every": 1,
+    "weight_decay": 1e-05
+  },
+  "loss": {
+    "bce_weight": 1.0,
+    "dice_weight": 1.0,
+    "lambda_cal": 0.1,
+    "lambda_kl": 0.0,
+    "lambda_rank": 0.0
+  },
+  "lora": {
+    "encoder_target_modules": [
+      "attn.qkv",
+      "attn.proj",
+      "mlp.layers.0",
+      "mlp.layers.1"
+    ],
+    "target_modules": [
+      "transformer.layers.",
+      "transformer.final_attn_token_to_image."
+    ],
+    "alpha": 16.0,
+    "dropout": 0.05,
+    "encoder_rank": 16,
+    "decoder_rank": 16
+  },
+  "experiment": {
+    "seed": 42,
+    "split_hash": "847e649f68cb8303f2de9855e120a05e09cf6e63c2c36abd5e0a3bddd6a6b487",
+    "split_case_ids": {
+      "test": [
+        "img0009",
+        "img0010",
+        "img0026",
+        "img0028",
+        "img0034",
+        "img0038"
+      ],
+      "train": [
+        "img0001",
+        "img0002",
+        "img0003",
+        "img0004",
+        "img0005",
+        "img0008",
+        "img0021",
+        "img0022",
+        "img0024",
+        "img0025",
+        "img0029",
+        "img0030",
+        "img0031",
+        "img0032",
+        "img0033",
+        "img0035",
+        "img0036",
+        "img0037",
+        "img0039"
+      ],
+      "validation": [
+        "img0006",
+        "img0007",
+        "img0023",
+        "img0027",
+        "img0040"
+      ]
+    },
+    "mode": "deterministic_lora_control_v1",
+    "device": "cuda:0",
+    "output_dir": "/kaggle/working/balora_deterministic_lora_control_v1"
+  },
+  "control": {
+    "build": "deterministic_lora_control_v1",
+    "protocol_sha256": "e308772e9941ec794c800fcb68f89861c59e199e80937be0f39c86c33d5a6b03",
+    "rank_reason": "Both ranks fixed at the original maximum (16); not chosen from test scores",
+    "initialization": "Fresh official backbone and new deterministic A/B adapters; never BALoRA weights",
+    "scope": "Combined point-estimate/fixed-rank control; not separate Bayesian-only and rank-only ablations",
+    "test_seed": 700043,
+    "policy": "none",
+    "reference_checkpoint_sha256": "8536f08e85dfd94eaa364513ee366b10b090e8948e00853e1a7bbd1f24113436"
+  },
+  "runtime": {}
+}

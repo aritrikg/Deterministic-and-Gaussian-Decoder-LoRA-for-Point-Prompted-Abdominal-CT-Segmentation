@@ -1,0 +1,1 @@
+Comparable decoder timing boundary. Includes Bayesian allocator probes and posterior draws. This is not total clinical latency, training time or notebook cumulative accounting.

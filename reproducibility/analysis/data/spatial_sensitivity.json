@@ -1,0 +1,85 @@
+{
+  "reference_boundary": "two-pixel binary dilation XOR two-pixel erosion of the ground-truth mask",
+  "targets": 2466,
+  "volumes": 6,
+  "failures": 200,
+  "failure_count_by_volume": {
+    "img0009": 65,
+    "img0010": 43,
+    "img0026": 33,
+    "img0028": 17,
+    "img0034": 16,
+    "img0038": 26
+  },
+  "mean_auroc": {
+    "full_oa": 0.778287457460061,
+    "full_oam": 0.8132648042265429,
+    "full_oae": 0.8258855977739085,
+    "full_oaem": 0.8257460497432568,
+    "full_oae_boundary_mi": 0.8229244214952424,
+    "boundary_oam": 0.7951852563807229,
+    "boundary_oae": 0.7736028514410446,
+    "boundary_oaem": 0.8371776002121712,
+    "full_mi_increment_given_entropy": -0.00013954803065158172,
+    "full_mi_increment_given_area": 0.0349773467664819,
+    "boundary_mi_increment_given_entropy": 0.06357474877112658,
+    "boundary_mi_increment_given_area": 0.016897798920661938,
+    "boundary_mi_increment_given_full_entropy": -0.0029611762786660445
+  },
+  "refit_mean_auroc_ranges": {
+    "full_oa": [
+      0.7566780449025577,
+      0.7854129142365467
+    ],
+    "full_oam": [
+      0.8019243319012729,
+      0.8214866828855113
+    ],
+    "full_oae": [
+      0.8092176900526461,
+      0.8335698798782332
+    ],
+    "full_oaem": [
+      0.8081633363882259,
+      0.8316583982745355
+    ],
+    "full_oae_boundary_mi": [
+      0.8068474745718989,
+      0.8311111127750787
+    ],
+    "boundary_oam": [
+      0.7747808142254631,
+      0.8076633126394075
+    ],
+    "boundary_oae": [
+      0.7496050347220953,
+      0.7854260690926236
+    ],
+    "boundary_oaem": [
+      0.8214872669794971,
+      0.8444500479704828
+    ],
+    "full_mi_increment_given_entropy": [
+      -0.005759408611504435,
+      0.002822619826308559
+    ],
+    "full_mi_increment_given_area": [
+      0.0284181821558136,
+      0.047062686938565725
+    ],
+    "boundary_mi_increment_given_entropy": [
+      0.059023978877859394,
+      0.07212402160290751
+    ],
+    "boundary_mi_increment_given_area": [
+      0.007409570344301941,
+      0.02225039840286085
+    ],
+    "boundary_mi_increment_given_full_entropy": [
+      -0.00752529744828887,
+      -0.0023702154807471844
+    ]
+  },
+  "predicted_region_saved_targets": 18,
+  "predicted_region_saved_failures": 1
+}

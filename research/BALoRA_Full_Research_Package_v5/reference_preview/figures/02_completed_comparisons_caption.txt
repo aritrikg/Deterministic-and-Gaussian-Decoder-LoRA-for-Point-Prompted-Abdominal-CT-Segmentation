@@ -1,0 +1,1 @@
+Only complete selected-checkpoint evaluations are shown. Each test fold has six independent volumes; organ pairs remain dependent. Reference frozen/adapted fits are labeled separately.

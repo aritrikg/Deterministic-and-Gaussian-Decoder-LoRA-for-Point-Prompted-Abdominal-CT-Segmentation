@@ -1,0 +1,11 @@
+test_actual_worker_launcher_import_check (__main__.Routing.test_actual_worker_launcher_import_check) ... ok
+test_extracted_resume_is_discovered (__main__.Routing.test_extracted_resume_is_discovered) ... ok
+test_identical_resume_copies_are_not_ambiguous (__main__.Routing.test_identical_resume_copies_are_not_ambiguous) ... ok
+test_official_training_collision_and_cached_module (__main__.Routing.test_official_training_collision_and_cached_module) ... ok
+test_recorded_failed_hours_are_carried (__main__.Routing.test_recorded_failed_hours_are_carried) ... ok
+test_resume_copy_suffix_is_discovered (__main__.Routing.test_resume_copy_suffix_is_discovered) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 3.412s
+
+OK

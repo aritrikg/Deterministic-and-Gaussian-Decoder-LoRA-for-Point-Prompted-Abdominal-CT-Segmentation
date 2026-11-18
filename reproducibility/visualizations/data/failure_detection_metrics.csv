@@ -1,0 +1,5 @@
+model,run,score,n_prompts,n_failed,failure_rate,roc_auc,average_precision,score_region,failure_definition
+Frozen SAM2,frozen_ref,predictive_entropy,2466,837,0.33941605839416056,0.8507436524228936,0.7625212534206091,all,per-model Dice < 0.5
+Deterministic LoRA,det_v1_f1_s42,predictive_entropy,2466,189,0.07664233576642336,0.6780085185882289,0.2538763973934566,all,per-model Dice < 0.5
+BALoRA predictive entropy,balora_v1_f1_s42,predictive_entropy,2466,200,0.08110300081103,0.7311451897616946,0.272038920372885,all,per-model Dice < 0.5
+BALoRA epistemic MI,balora_v1_f1_s42,epistemic_MI,2466,200,0.08110300081103,0.7921579876434245,0.3356419584588373,all,per-model Dice < 0.5

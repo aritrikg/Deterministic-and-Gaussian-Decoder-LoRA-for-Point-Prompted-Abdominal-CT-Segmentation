@@ -1,0 +1,22 @@
+run,metric,mean_over_defined_pairs,defined_pairs,total_pairs,undefined_predictions,units
+frozen_ref,dice,0.5123444878082426,78,78,0,unitless
+frozen_ref,iou,0.4470641537048135,78,78,0,unitless
+frozen_ref,hd95,180.22486747159732,78,78,0,resized 2D pixels
+frozen_ref,assd,100.77266306097935,78,78,0,resized 2D pixels
+frozen_ref,ece,0.11226833254919018,78,78,0,unitless
+frozen_ref,brier,0.09553730262105699,78,78,0,unitless
+frozen_ref,nll,0.37233396101561084,78,78,0,unitless
+det_v1_f1_s42,dice,0.8048708566147759,78,78,0,unitless
+det_v1_f1_s42,iou,0.721620189676736,78,78,0,unitless
+det_v1_f1_s42,hd95,34.30227171343472,78,78,0,resized 2D pixels
+det_v1_f1_s42,assd,11.744046145717368,78,78,0,resized 2D pixels
+det_v1_f1_s42,ece,0.004236088885307794,78,78,0,unitless
+det_v1_f1_s42,brier,0.004118516463900836,78,78,0,unitless
+det_v1_f1_s42,nll,0.027079430926418856,78,78,0,unitless
+balora_v1_f1_s42,dice,0.7981970940632518,78,78,0,unitless
+balora_v1_f1_s42,iou,0.7161753554059161,78,78,0,unitless
+balora_v1_f1_s42,hd95,35.66968038996107,78,78,0,resized 2D pixels
+balora_v1_f1_s42,assd,12.337392197439888,78,78,0,resized 2D pixels
+balora_v1_f1_s42,ece,0.004486927859824614,78,78,0,unitless
+balora_v1_f1_s42,brier,0.004026556004218931,78,78,0,unitless
+balora_v1_f1_s42,nll,0.02685890062819855,78,78,0,unitless

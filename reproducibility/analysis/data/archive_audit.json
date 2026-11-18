@@ -1,0 +1,174 @@
+{
+  "verified_completed_archive_sha256": "ccc8581ea2b5dfac4909056585448a9121f6e1d2a122352f6039d5680c185340",
+  "manifest_entries_verified": 7640,
+  "record_counts": {
+    "frozen": 2466,
+    "deterministic": 2466,
+    "balora": 2466
+  },
+  "matched_prompt_keys_and_coordinates": true,
+  "selected_checkpoint_sha256": {
+    "deterministic": "40ff778fe706fda8ebac4ad9b5bd5215a2c1e6b89674f654016b22a54dff70d8",
+    "balora": "cb0d82ca0b01cb4328ef6afa1c54e246c42093c3320efd519b931063398da0ec"
+  },
+  "qualitative_array_records": 54,
+  "posterior_scale_summary": {
+    "stored_epoch": 6,
+    "learned_scale_count": 335872,
+    "global_sigma_p05_median_p95": [
+      0.04942397301494394,
+      0.07394512707864428,
+      0.09896615915553708
+    ],
+    "factor_mean_sigma_range": [
+      0.049746883149872315,
+      0.08681740311778359
+    ],
+    "sigma_median_abs_deviation_from_initial": 0.023945127078644282,
+    "factor_rms_ratio_by_factor": {
+      "A": [
+        1.0110412329569831,
+        3.336945501073499,
+        6.736705480250816
+      ],
+      "B": [
+        3.9109194117778947,
+        11.779002725048205,
+        30.74496766237292
+      ]
+    },
+    "pooled_layer_rms_ratio_min_median_max": [
+      1.6652340577697378,
+      5.022024203889698,
+      10.369041950298687
+    ],
+    "raw_checkpoint_kl_nats": 727116.5070493477,
+    "weighted_checkpoint_kl": 0.030410560729792882
+  },
+  "selected18_roi_descriptive_means": {
+    "balora": {
+      "ece_15": 0.05799253256082896,
+      "brier": 0.05710189163614892
+    },
+    "deterministic": {
+      "ece_15": 0.049579347605423284,
+      "brier": 0.051856232055811136
+    },
+    "frozen": {
+      "ece_15": 0.6609656884013294,
+      "brier": 0.5991772270627701
+    }
+  },
+  "qualitative_targets": [
+    {
+      "key": "img0009:116:6",
+      "dice": 0.9719014763832092,
+      "mi": 0.0008383880956292
+    },
+    {
+      "key": "img0009:63:11",
+      "dice": 0.6093894839286804,
+      "mi": 0.0001680746169766
+    },
+    {
+      "key": "img0009:97:12",
+      "dice": 0.814859926700592,
+      "mi": 3.803961890072637e-05
+    },
+    {
+      "key": "img0010:106:12",
+      "dice": 0.6317991614341736,
+      "mi": 0.0044466251008547
+    },
+    {
+      "key": "img0010:120:6",
+      "dice": 0.9707720875740052,
+      "mi": 0.001598230283321
+    },
+    {
+      "key": "img0010:98:11",
+      "dice": 0.3919515907764435,
+      "mi": 0.0013416549187886
+    },
+    {
+      "key": "img0026:67:11",
+      "dice": 0.6766180396080017,
+      "mi": 0.0013492929304448
+    },
+    {
+      "key": "img0026:71:12",
+      "dice": 0.6363384127616882,
+      "mi": 0.000513300328717
+    },
+    {
+      "key": "img0026:77:6",
+      "dice": 0.9686736464500428,
+      "mi": 0.0009287571306533
+    },
+    {
+      "key": "img0028:64:11",
+      "dice": 0.8777526021003723,
+      "mi": 0.0004399530751443
+    },
+    {
+      "key": "img0028:67:12",
+      "dice": 0.8395677208900452,
+      "mi": 0.0004426980782518
+    },
+    {
+      "key": "img0028:74:6",
+      "dice": 0.952164351940155,
+      "mi": 0.0032116606586262
+    },
+    {
+      "key": "img0034:68:11",
+      "dice": 0.6966976523399353,
+      "mi": 0.0012651000257853
+    },
+    {
+      "key": "img0034:75:12",
+      "dice": 0.8099173307418823,
+      "mi": 8.633778188192782e-05
+    },
+    {
+      "key": "img0034:81:6",
+      "dice": 0.982987940311432,
+      "mi": 0.001648809904475
+    },
+    {
+      "key": "img0038:75:11",
+      "dice": 0.8702574372291565,
+      "mi": 0.000457864003501
+    },
+    {
+      "key": "img0038:75:12",
+      "dice": 0.6947467923164368,
+      "mi": 0.0002748613543934
+    },
+    {
+      "key": "img0038:79:6",
+      "dice": 0.966505765914917,
+      "mi": 0.00092755274735
+    }
+  ],
+  "training_export_fields": {
+    "deterministic": [
+      "epoch",
+      "train_loss",
+      "val_dice",
+      "val_ece",
+      "optimizer_updates",
+      "amp_overflow_retries",
+      "seconds_this_session",
+      "lr_after_epoch"
+    ],
+    "balora": [
+      "epoch",
+      "train_loss",
+      "val_dice",
+      "val_ece",
+      "epoch_seconds",
+      "amp_overflow_retries"
+    ]
+  }
+}

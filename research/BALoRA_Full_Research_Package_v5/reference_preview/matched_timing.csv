@@ -1,0 +1,4 @@
+run,median_decoder_ms,median_encoder_ms_per_slice,timing_scope
+frozen_ref,14.92798499930359,126.034165998135,CUDA synchronized; encoder once/slice and decoder per prompt incl probes; excludes CPU metrics/IO
+det_v1_f1_s42,22.998533000645693,141.0601259995019,CUDA synchronized; encoder once/slice and decoder per prompt incl probes; excludes CPU metrics/IO
+balora_v1_f1_s42,202.08545949935797,139.92092750049778,CUDA synchronized; encoder once/slice and decoder per prompt incl probes; excludes CPU metrics/IO

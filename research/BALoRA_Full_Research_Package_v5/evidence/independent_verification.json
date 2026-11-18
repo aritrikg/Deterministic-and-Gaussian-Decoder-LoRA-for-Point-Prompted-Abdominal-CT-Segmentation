@@ -1,0 +1,67 @@
+{
+  "source_archive_sha256": "ccc8581ea2b5dfac4909056585448a9121f6e1d2a122352f6039d5680c185340",
+  "verified_manifest_entries": 7640,
+  "methods": {
+    "frozen": {
+      "dice": 0.5123444878082426,
+      "predictions": 2466,
+      "foreground_slices": 460,
+      "volume_organ_pairs": 78,
+      "volumes": 6,
+      "checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+      "prompt_seed": 700043,
+      "k": 1
+    },
+    "deterministic": {
+      "dice": 0.8048708566147759,
+      "predictions": 2466,
+      "foreground_slices": 460,
+      "volume_organ_pairs": 78,
+      "volumes": 6,
+      "checkpoint_sha256": "40ff778fe706fda8ebac4ad9b5bd5215a2c1e6b89674f654016b22a54dff70d8",
+      "prompt_seed": 700043,
+      "k": 1,
+      "completed_epochs": 13,
+      "selected_epoch_one_based": 7
+    },
+    "balora": {
+      "dice": 0.7981970940632518,
+      "predictions": 2466,
+      "foreground_slices": 460,
+      "volume_organ_pairs": 78,
+      "volumes": 6,
+      "checkpoint_sha256": "cb0d82ca0b01cb4328ef6afa1c54e246c42093c3320efd519b931063398da0ec",
+      "prompt_seed": 700043,
+      "k": 4,
+      "completed_epochs": 13,
+      "selected_epoch_one_based": 7
+    }
+  },
+  "paired_prompts_verified": true,
+  "latest_ledger": {
+    "accounted_hours": 35.726407254264196,
+    "active_total_cumulative_cap_hours": 45.0,
+    "baseline_hours": 20.884743572863048,
+    "explicit_expansion_over_original_hours": 15.0,
+    "original_declared_cap_hours": 30,
+    "schema": "balora_full_run_ledger_v4",
+    "sessions": {
+      "68e56b1140094f1d906fd3d1640a4240": {
+        "closed": true,
+        "elapsed_seconds": 30841.598248004913,
+        "last_update_unix": 1793487581.5376303,
+        "started_unix": 1793456739.939381,
+        "status": "PARTIAL_SESSION_OR_CUMULATIVE_BUDGET_PAUSED"
+      },
+      "daf7444fa5504e7784d57512c0e904b3": {
+        "closed": true,
+        "elapsed_seconds": 22588.391005039215,
+        "last_update_unix": 1793548916.9443946,
+        "started_unix": 1793526328.5533886,
+        "status": "FULL_NEW_FOLD1_PROTOCOL_COMPLETE"
+      }
+    },
+    "time_unit": "pipeline wall time; concurrent GPUs share the same pipeline clock; not GPU-hours"
+  },
+  "status": "VERIFIED_COMPLETED_FOLD1_SEED42"
+}

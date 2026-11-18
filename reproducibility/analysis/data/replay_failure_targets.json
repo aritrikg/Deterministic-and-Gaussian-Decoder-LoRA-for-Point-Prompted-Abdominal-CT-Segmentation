@@ -1,0 +1,16 @@
+[
+  {
+    "role": "low_ranked_failure",
+    "key": "img0034:75:11",
+    "dice": 0.3871928453445434,
+    "mean_mi_nats": 2.548919699600096e-05,
+    "within_volume_mi_percentile": 0.08532423208191127
+  },
+  {
+    "role": "high_ranked_failure",
+    "key": "img0034:69:11",
+    "dice": 0.47395059466362,
+    "mean_mi_nats": 0.0073496167483859,
+    "within_volume_mi_percentile": 0.9795221843003413
+  }
+]

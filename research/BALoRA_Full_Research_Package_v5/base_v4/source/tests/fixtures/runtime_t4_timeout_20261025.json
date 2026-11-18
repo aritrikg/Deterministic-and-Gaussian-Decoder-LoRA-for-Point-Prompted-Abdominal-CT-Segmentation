@@ -1,0 +1,22 @@
+{
+  "evidence_type": "Values transcribed from the user's Kaggle Version 11 timeout log; no author GPU execution",
+  "platform_timeout_seconds": 43213.5,
+  "legacy_accounting_hours_rounded_up": 12.01,
+  "source_tests": "46 passed, 47 warnings in 9.07s",
+  "completed_epoch_indices": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+  "partial_epoch_index": 16,
+  "last_printed_partial_batch": 500,
+  "best_epoch": 10,
+  "best_validation_dice_as_printed": 0.80174,
+  "gpu": "Tesla T4",
+  "full_train_slices": 2391,
+  "train_foreground_slices": 1347,
+  "background_clips_removed": 1044,
+  "validation_foreground_slices": 371,
+  "validation_sample_seconds": 41.75109655299997,
+  "validation_sample_size": 32,
+  "final_sample_seconds": 443.58015863700007,
+  "train_p75_seconds_per_foreground_slice": 1.7112369335000466,
+  "measured_training_seconds": [1.8316612220000366,1.67109550400005,1.1091878810000253,1.2308449580000342,1.2291812830000026,1.2382316869999954,1.8416109649999726,1.0914994789999923,2.1390581879999786,1.4214117020000003,1.4045266599999877,1.0909079040000051],
+  "note": "The actual recoverable batch is read from last.pt; it is not assumed to equal the last printed batch."
+}

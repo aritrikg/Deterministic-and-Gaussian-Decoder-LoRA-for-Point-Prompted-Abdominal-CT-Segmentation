@@ -1,0 +1,8 @@
+{
+  "uploaded_archive_sha256": "6631a5f9be2bf6584c0e68489eb2a0d674caf1fc49dd3154da57006d2c4c5133",
+  "followup_status": "FAILED_BEFORE_RESEARCH_FITTING",
+  "new_research_checkpoints": 0,
+  "root_cause": "Official SAM2 training.train shadowed BALoRA training.train; submitit error was a namespace collision",
+  "carried_accounted_hours": 35.9096370237325,
+  "changes": "External runtime entrypoints pin project training imports and handle repeated execution; original scientific v5 code unchanged"
+}

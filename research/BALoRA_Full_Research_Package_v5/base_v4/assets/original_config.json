@@ -1,0 +1,146 @@
+{
+  "bayesian": {
+    "enabled": true,
+    "encoder_scope": "point_estimate_lora",
+    "init_posterior_std": 0.05,
+    "k_infer": 4,
+    "k_train": 2,
+    "posterior_scope": "sam_mask_decoder_only",
+    "prior_std": 1.0
+  },
+  "confidence": {
+    "entropy_eps": 1e-08,
+    "region_min_area": 25
+  },
+  "data": {
+    "cache_dir": "/kaggle/working/balora_raw_cache",
+    "clip_len": 1,
+    "ct_window": [
+      -175.0,
+      250.0
+    ],
+    "dataset": "btcv",
+    "fold": 0,
+    "foreground_only": true,
+    "image_size": 1024,
+    "n_folds": 5,
+    "num_classes": 14,
+    "root_dir": "/kaggle/input/datasets/aritrikghosh/btcv-abdominal-ct/RawData/Training",
+    "sam2_image_size": 1024,
+    "split_seed": 42,
+    "test_split": "/kaggle/working/balora_splits/fold_01/test.json",
+    "train_split": "/kaggle/working/balora_splits/fold_01/train.json",
+    "val_fraction": 0.15,
+    "val_split": "/kaggle/working/balora_splits/fold_01/val.json"
+  },
+  "experiment": {
+    "device": "cuda",
+    "mode": "research",
+    "name": "balora_btcv_fold0",
+    "output_dir": "/kaggle/working/balora_30h_outputs/fold1_20epochs_v1/research_fold_01",
+    "seed": 42,
+    "split_case_ids": {
+      "test": [
+        "img0009",
+        "img0010",
+        "img0026",
+        "img0028",
+        "img0034",
+        "img0038"
+      ],
+      "train": [
+        "img0001",
+        "img0002",
+        "img0003",
+        "img0004",
+        "img0005",
+        "img0008",
+        "img0021",
+        "img0022",
+        "img0024",
+        "img0025",
+        "img0029",
+        "img0030",
+        "img0031",
+        "img0032",
+        "img0033",
+        "img0035",
+        "img0036",
+        "img0037",
+        "img0039"
+      ],
+      "validation": [
+        "img0006",
+        "img0007",
+        "img0023",
+        "img0027",
+        "img0040"
+      ]
+    },
+    "split_hash": "847e649f68cb8303f2de9855e120a05e09cf6e63c2c36abd5e0a3bddd6a6b487",
+    "version": "0.1.0"
+  },
+  "logging": {
+    "log_every_n_steps": 100
+  },
+  "lora": {
+    "alpha": 16.0,
+    "attribution_gamma": 4.0,
+    "dropout": 0.05,
+    "encoder_target_modules": [
+      "attn.qkv",
+      "attn.proj",
+      "mlp.layers.0",
+      "mlp.layers.1"
+    ],
+    "learned_prior_weight": 0.2,
+    "rank_bank": [
+      4,
+      8,
+      16
+    ],
+    "target_modules": [
+      "transformer.layers.",
+      "transformer.final_attn_token_to_image."
+    ]
+  },
+  "loss": {
+    "bce_weight": 1.0,
+    "dice_weight": 1.0,
+    "lambda_cal": 0.1,
+    "lambda_kl": 0.0001,
+    "lambda_rank": 0.01
+  },
+  "refinement": {
+    "confidence_threshold": 0.85,
+    "crop_padding": 16,
+    "enabled": true,
+    "max_iters": 3,
+    "min_region_area": 25
+  },
+  "runtime": {},
+  "sam2": {
+    "checkpoint": "/kaggle/working/checkpoints/sam2.1_hiera_base_plus.pt",
+    "checkpoint_sha256": "a2345aede8715ab1d5d31b4a509fb160c5a4af1970f199d9054ccfb746c004c5",
+    "freeze_backbone": true,
+    "git_ref": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+    "model_cfg": "configs/sam2.1/sam2.1_hiera_b+.yaml",
+    "repo": "https://github.com/facebookresearch/sam2.git",
+    "resolved_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4"
+  },
+  "training": {
+    "amp": true,
+    "batch_size": 1,
+    "checkpoint_every": 5,
+    "checkpoint_seconds": 300,
+    "continuation_lr": 2.5e-05,
+    "early_stopping_patience": 6,
+    "grad_clip_norm": 1.0,
+    "lr": 0.0001,
+    "min_epochs": 8,
+    "num_epochs": 20,
+    "num_workers": 0,
+    "val_every": 1,
+    "weight_decay": 1e-05
+  }
+}

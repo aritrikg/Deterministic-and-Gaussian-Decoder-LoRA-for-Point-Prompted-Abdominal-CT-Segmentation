@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="642.96pt" height="282.96pt" viewBox="0 0 642.96 282.96" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-02T11:27:13.551196</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 282.96 
+L 642.96 282.96 
+L 642.96 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 13.4856 111.9384 
+L 164.34 111.9384 
+Q 170.6256 111.9384 170.6256 109.2528 
+L 170.6256 50.1696 
+Q 170.6256 47.484 164.34 47.484 
+L 13.4856 47.484 
+Q 7.2 47.484 7.2 50.1696 
+L 7.2 109.2528 
+Q 7.2 111.9384 13.4856 111.9384 
+z
+" clip-path="url(#p588f2ca8d5)" style="fill: #edf2f6; stroke: #36556d; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 220.9104 111.9384 
+L 384.336 111.9384 
+Q 390.6216 111.9384 390.6216 109.2528 
+L 390.6216 50.1696 
+Q 390.6216 47.484 384.336 47.484 
+L 220.9104 47.484 
+Q 214.6248 47.484 214.6248 50.1696 
+L 214.6248 109.2528 
+Q 214.6248 111.9384 220.9104 111.9384 
+z
+" clip-path="url(#p588f2ca8d5)" style="fill: #edf2f6; stroke: #36556d; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 453.4776 111.9384 
+L 623.1888 111.9384 
+Q 629.4744 111.9384 629.4744 109.2528 
+L 629.4744 50.1696 
+Q 629.4744 47.484 623.1888 47.484 
+L 453.4776 47.484 
+Q 447.192 47.484 447.192 50.1696 
+L 447.192 109.2528 
+Q 447.192 111.9384 453.4776 111.9384 
+z
+" clip-path="url(#p588f2ca8d5)" style="fill: #edf2f6; stroke: #36556d; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 38.628 256.9608 
+L 283.7664 256.9608 
+Q 290.052 256.9608 290.052 254.2752 
+L 290.052 187.1352 
+Q 290.052 184.4496 283.7664 184.4496 
+L 38.628 184.4496 
+Q 32.3424 184.4496 32.3424 187.1352 
+L 32.3424 254.2752 
+Q 32.3424 256.9608 38.628 256.9608 
+z
+" clip-path="url(#p588f2ca8d5)" style="fill: #edf2f6; stroke: #36556d; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 352.908 256.9608 
+L 604.332 256.9608 
+Q 610.6176 256.9608 610.6176 254.2752 
+L 610.6176 187.1352 
+Q 610.6176 184.4496 604.332 184.4496 
+L 352.908 184.4496 
+Q 346.6224 184.4496 346.6224 187.1352 
+L 346.6224 254.2752 
+Q 346.6224 256.9608 352.908 256.9608 
+z
+" clip-path="url(#p588f2ca8d5)" style="fill: #edf2f6; stroke: #36556d; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(58.225613 77.155622)">Windowed CT</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(60.48405 87.233653)">1024 x 1024</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(255.964528 77.155622)">SAM2.1 Hiera Base+</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(240.125231 87.233653)">Deterministic encoder LoRA</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(500.353903 77.155622)">Decoder adapter</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(477.517106 87.233653)">point estimate or Gaussian</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(99.317278 213.110606)">v1: MI gradient x activation</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(90.717356 223.188638)">detached score -&gt; integer rank</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(94.592981 233.266669)">gate learns penalty prior only</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(427.595625 213.110606)">v2: entropy attribution</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(413.400937 223.188638)">softmax + hard forward rank</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(410.590547 233.266669)">straight-through task gradient</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 166.339161 79.7112 
+Q 192.623886 79.7112 217.790577 79.7112 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 214.190577 77.9112 
+L 217.790577 79.7112 
+L 214.190577 81.5112 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 386.332092 79.7112 
+Q 418.902827 79.7112 450.355528 79.7112 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 446.755528 77.9112 
+L 450.355528 79.7112 
+L 446.755528 81.5112 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 526.94947 109.670519 
+Q 346.622689 148.193938 167.389272 186.483781 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 171.285882 187.491959 
+L 167.389272 186.483781 
+L 170.533781 183.971399 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 527.819859 110.933185 
+Q 503.762707 148.193524 480.311997 184.514592 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 483.776895 182.466549 
+L 480.311997 184.514592 
+L 480.752501 180.513847 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(118.21495 144.579575)">Oracle positive point from GT</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(130.42745 153.537825)">Frozen prompt encoder</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 285.54077 143.239587 
+Q 363.579328 102.763365 450.359032 101.245488 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+    <path d="M 446.728104 99.508722 
+L 450.359032 101.245488 
+L 446.791062 103.108171 
+" style="fill: none; stroke: #000000; stroke-linecap: round"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p588f2ca8d5">
+   <rect x="7.2" y="7.2" width="628.56" height="268.56"/>
+  </clipPath>
+ </defs>
+</svg>

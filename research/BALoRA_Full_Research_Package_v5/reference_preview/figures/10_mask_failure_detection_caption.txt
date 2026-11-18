@@ -1,0 +1,1 @@
+Outcome: each method’s target Dice below 0.5. Undefined volumes with no failures or no successes are excluded and denominators reported. Failure outcomes differ across models; this comparison is exploratory and is not a calibrated clinical failure probability.

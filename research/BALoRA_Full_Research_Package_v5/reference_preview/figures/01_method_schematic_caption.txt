@@ -1,0 +1,1 @@
+Schematic of the preserved v1 and separately trained v2. Branches are distinct implementations; v2 is not a correction applied to historical results. Oracle ground-truth point assistance is required. No measured result is depicted.

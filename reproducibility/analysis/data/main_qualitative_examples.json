@@ -1,0 +1,18 @@
+[
+  {
+    "key": "img0034:81:6",
+    "organ": "Liver",
+    "deterministic_dice": 0.9759929776191713,
+    "gaussian_dice": 0.982987940311432,
+    "mean_mi_nats": 0.001648809904475,
+    "within_volume_mi_percentile": 0.9146757679180887
+  },
+  {
+    "key": "img0010:98:11",
+    "organ": "Pancreas",
+    "deterministic_dice": 0.7841572761535645,
+    "gaussian_dice": 0.3919515907764435,
+    "mean_mi_nats": 0.0013416549187886,
+    "within_volume_mi_percentile": 0.9148073022312373
+  }
+]

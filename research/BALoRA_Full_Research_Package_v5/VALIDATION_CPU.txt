@@ -1,0 +1,71 @@
+test_bayesian_mixture_samples_and_gradients (__main__.Integrity.test_bayesian_mixture_samples_and_gradients) ... ok
+test_bayesian_wrapper_v1_fixed_v2_multi_organ_backward (__main__.Integrity.test_bayesian_wrapper_v1_fixed_v2_multi_organ_backward) ... ok
+test_deterministic_never_fakes_epistemic_samples (__main__.Integrity.test_deterministic_never_fakes_epistemic_samples) ... ok
+test_finite_plan_and_identity (__main__.Integrity.test_finite_plan_and_identity) ... ok
+test_folds_and_ledger (__main__.Integrity.test_folds_and_ledger) ... ok
+test_gate_hard_forward_task_gradient (__main__.Integrity.test_gate_hard_forward_task_gradient) ... ok
+test_historical_source_unchanged (__main__.Integrity.test_historical_source_unchanged) ... ok
+test_incremental_evaluation_and_coverage (__main__.Integrity.test_incremental_evaluation_and_coverage) ... ok
+test_interrupted_training_matches_uninterrupted (__main__.Integrity.test_interrupted_training_matches_uninterrupted)
+Actual adapter updates, optimizer/scheduler/RNG restored mid-epoch. ... Training precision: FP32
+epoch 0: mean_loss=1.494268; optimizer_updates=3; skipped_batches=0; AMP_retries=0; seconds=0.0
+fixture epoch 1 val Dice 0.5 selected epoch 1
+Training precision: FP32
+epoch 1: mean_loss=1.494376; optimizer_updates=3; skipped_batches=0; AMP_retries=0; seconds=0.0
+fixture epoch 2 val Dice 0.5 selected epoch 1
+Training precision: FP32
+epoch 2: mean_loss=1.493806; optimizer_updates=3; skipped_batches=0; AMP_retries=0; seconds=0.0
+fixture epoch 3 val Dice 0.5 selected epoch 1
+Training precision: FP32
+epoch 3: mean_loss=1.495043; optimizer_updates=3; skipped_batches=0; AMP_retries=0; seconds=0.0
+fixture epoch 4 val Dice 0.5 selected epoch 1
+Training precision: FP32
+epoch 4: mean_loss=1.491840; optimizer_updates=3; skipped_batches=0; AMP_retries=0; seconds=0.0
+fixture epoch 5 val Dice 0.5 selected epoch 1
+Training precision: FP32
+epoch 5: mean_loss=1.490821; optimizer_updates=3; skipped_batches=0; AMP_retries=0; seconds=0.0
+fixture epoch 6 val Dice 0.5 selected epoch 1
+Training precision: FP32
+epoch 6: mean_loss=1.487839; optimizer_updates=3; skipped_batches=0; AMP_retries=0; seconds=0.0
+fixture epoch 7 val Dice 0.5 selected epoch 1
+Training precision: FP32
+epoch 7: mean_loss=1.488797; optimizer_updates=3; skipped_batches=0; AMP_retries=0; seconds=0.0
+fixture epoch 8 val Dice 0.5 selected epoch 1
+Training precision: FP32
+Training precision: FP32
+epoch 0: mean_loss=1.494268; optimizer_updates=3; skipped_batches=0; AMP_retries=0; seconds=0.0
+fixture epoch 1 val Dice 0.5 selected epoch 1
+Training precision: FP32
+epoch 1: mean_loss=1.494376; optimizer_updates=3; skipped_batches=0; AMP_retries=0; seconds=0.0
+fixture epoch 2 val Dice 0.5 selected epoch 1
+Training precision: FP32
+epoch 2: mean_loss=1.493806; optimizer_updates=3; skipped_batches=0; AMP_retries=0; seconds=0.0
+fixture epoch 3 val Dice 0.5 selected epoch 1
+Training precision: FP32
+epoch 3: mean_loss=1.495043; optimizer_updates=3; skipped_batches=0; AMP_retries=0; seconds=0.0
+fixture epoch 4 val Dice 0.5 selected epoch 1
+Training precision: FP32
+epoch 4: mean_loss=1.491840; optimizer_updates=3; skipped_batches=0; AMP_retries=0; seconds=0.0
+fixture epoch 5 val Dice 0.5 selected epoch 1
+Training precision: FP32
+epoch 5: mean_loss=1.490821; optimizer_updates=3; skipped_batches=0; AMP_retries=0; seconds=0.0
+fixture epoch 6 val Dice 0.5 selected epoch 1
+Training precision: FP32
+epoch 6: mean_loss=1.487839; optimizer_updates=3; skipped_batches=0; AMP_retries=0; seconds=0.0
+fixture epoch 7 val Dice 0.5 selected epoch 1
+Training precision: FP32
+epoch 7: mean_loss=1.488797; optimizer_updates=3; skipped_batches=0; AMP_retries=0; seconds=0.0
+fixture epoch 8 val Dice 0.5 selected epoch 1
+ok
+test_labeled_root_excludes_unlabeled_challenge_test (__main__.Integrity.test_labeled_root_excludes_unlabeled_challenge_test) ... ok
+test_point_unet_shape_and_task_gradient (__main__.Integrity.test_point_unet_shape_and_task_gradient) ... ok
+test_unclosed_accounting_rejected (__main__.Integrity.test_unclosed_accounting_rejected) ... ok
+test_v1_hard_gate_has_no_task_gradient (__main__.Integrity.test_v1_hard_gate_has_no_task_gradient) ... ok
+test_v2_real_wrapper_gradient_two_organs (__main__.Integrity.test_v2_real_wrapper_gradient_two_organs) ... ok
+test_volume_dependence (__main__.Integrity.test_volume_dependence) ... ok
+test_zip_path_escape (__main__.Integrity.test_zip_path_escape) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.510s
+
+OK

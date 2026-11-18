@@ -1,0 +1,1 @@
+Pixel AUROC excludes all-correct/all-error targets with undefined AUROC. Means respect volume-organ nesting. Spatial pixels are not independent observations; no pixel-level confidence intervals. Epistemic MI exists only for genuine posterior draws; entropy is available for deterministic outputs.

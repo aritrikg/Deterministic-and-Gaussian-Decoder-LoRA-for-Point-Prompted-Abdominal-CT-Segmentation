@@ -1,0 +1,25 @@
+run,case_id,score,mask_failure_definition,targets,failures,within_volume_auroc
+frozen_ref,img0009,predictive_entropy,Dice < 0.5 for this method,715,232,0.8424894695509388
+frozen_ref,img0010,predictive_entropy,Dice < 0.5 for this method,493,174,0.8430620113140922
+frozen_ref,img0026,predictive_entropy,Dice < 0.5 for this method,337,144,0.8354922279792746
+frozen_ref,img0028,predictive_entropy,Dice < 0.5 for this method,295,89,0.8491327588087706
+frozen_ref,img0034,predictive_entropy,Dice < 0.5 for this method,293,76,0.809483385884065
+frozen_ref,img0038,predictive_entropy,Dice < 0.5 for this method,333,122,0.9295703519540052
+det_v1_f1_s42,img0009,predictive_entropy,Dice < 0.5 for this method,715,56,0.5990949490570128
+det_v1_f1_s42,img0010,predictive_entropy,Dice < 0.5 for this method,493,45,0.6618551587301588
+det_v1_f1_s42,img0026,predictive_entropy,Dice < 0.5 for this method,337,28,0.6868932038834952
+det_v1_f1_s42,img0028,predictive_entropy,Dice < 0.5 for this method,295,17,0.7035548032162505
+det_v1_f1_s42,img0034,predictive_entropy,Dice < 0.5 for this method,293,16,0.7732400722021661
+det_v1_f1_s42,img0038,predictive_entropy,Dice < 0.5 for this method,333,27,0.7649479544904382
+balora_v1_f1_s42,img0009,predictive_entropy,Dice < 0.5 for this method,715,65,0.6797159763313609
+balora_v1_f1_s42,img0010,predictive_entropy,Dice < 0.5 for this method,493,43,0.6992248062015504
+balora_v1_f1_s42,img0026,predictive_entropy,Dice < 0.5 for this method,337,33,0.7685406698564593
+balora_v1_f1_s42,img0028,predictive_entropy,Dice < 0.5 for this method,295,17,0.7731696995344901
+balora_v1_f1_s42,img0034,predictive_entropy,Dice < 0.5 for this method,293,16,0.7621841155234657
+balora_v1_f1_s42,img0038,predictive_entropy,Dice < 0.5 for this method,333,26,0.7955399649210724
+balora_v1_f1_s42,img0009,epistemic_MI,Dice < 0.5 for this method,715,65,0.7639763313609468
+balora_v1_f1_s42,img0010,epistemic_MI,Dice < 0.5 for this method,493,43,0.7710594315245478
+balora_v1_f1_s42,img0026,epistemic_MI,Dice < 0.5 for this method,337,33,0.8226674641148325
+balora_v1_f1_s42,img0028,epistemic_MI,Dice < 0.5 for this method,295,17,0.7987727465086754
+balora_v1_f1_s42,img0034,epistemic_MI,Dice < 0.5 for this method,293,16,0.789485559566787
+balora_v1_f1_s42,img0038,epistemic_MI,Dice < 0.5 for this method,333,26,0.8383863693309948

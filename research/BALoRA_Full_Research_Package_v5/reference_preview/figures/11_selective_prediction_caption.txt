@@ -1,0 +1,1 @@
+Low uncertainty pixels retained first. Histogram ties use the documented linear within-bin interpolation. Curves averaged slice → volume-organ → volume → volumes. Background dominates all-pixel risk. No independent-pixel confidence intervals.

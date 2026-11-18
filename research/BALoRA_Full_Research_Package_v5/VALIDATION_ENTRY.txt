@@ -1,0 +1,33 @@
+test_actual_research_ledger_keeps_historical_hours (__main__.EntryChecks.test_actual_research_ledger_keeps_historical_hours) ... RUN_PENDING: executing unfinished stages; completed checkpoints and records will be reused.
+RUN_PENDING: executing unfinished stages; completed checkpoints and records will be reused.
+ok
+test_complete_repeat_does_not_relaunch (__main__.EntryChecks.test_complete_repeat_does_not_relaunch) ... RUN_PENDING: executing unfinished stages; completed checkpoints and records will be reused.
+ok
+test_concurrent_lock_blocks_duplicate (__main__.EntryChecks.test_concurrent_lock_blocks_duplicate) ... ok
+test_expired_session_is_not_extended (__main__.EntryChecks.test_expired_session_is_not_extended) ... RUN_PENDING: executing unfinished stages; completed checkpoints and records will be reused.
+ok
+test_failed_attempt_never_returns_old_zip_as_new (__main__.EntryChecks.test_failed_attempt_never_returns_old_zip_as_new) ... RUN_PENDING: executing unfinished stages; completed checkpoints and records will be reused.
+ok
+test_failed_startup_retains_deadline_and_intervals (__main__.EntryChecks.test_failed_startup_retains_deadline_and_intervals) ... RUN_PENDING: executing unfinished stages; completed checkpoints and records will be reused.
+RUN_PENDING: executing unfinished stages; completed checkpoints and records will be reused.
+ok
+test_failed_worker_closed_state_can_resume (__main__.EntryChecks.test_failed_worker_closed_state_can_resume) ... RUN_PENDING: executing unfinished stages; completed checkpoints and records will be reused.
+RUN_PENDING: executing unfinished stages; completed checkpoints and records will be reused.
+ok
+test_import_failure_does_not_latch (__main__.EntryChecks.test_import_failure_does_not_latch) ... RUN_PENDING: executing unfinished stages; completed checkpoints and records will be reused.
+RUN_PENDING: executing unfinished stages; completed checkpoints and records will be reused.
+ok
+test_kernel_restart_does_not_reset_deadline (__main__.EntryChecks.test_kernel_restart_does_not_reset_deadline) ... RUN_PENDING: executing unfinished stages; completed checkpoints and records will be reused.
+RUN_PENDING: executing unfinished stages; completed checkpoints and records will be reused.
+ok
+test_legacy_completed_output_is_reused (__main__.EntryChecks.test_legacy_completed_output_is_reused) ... ok
+test_pause_can_continue_before_original_deadline (__main__.EntryChecks.test_pause_can_continue_before_original_deadline) ... RUN_PENDING: executing unfinished stages; completed checkpoints and records will be reused.
+RUN_PENDING: executing unfinished stages; completed checkpoints and records will be reused.
+ok
+test_results_only_never_launches (__main__.EntryChecks.test_results_only_never_launches) ... ok
+test_unclosed_ledger_is_preserved (__main__.EntryChecks.test_unclosed_ledger_is_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.054s
+
+OK

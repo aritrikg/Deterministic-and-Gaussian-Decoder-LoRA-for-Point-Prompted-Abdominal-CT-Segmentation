@@ -1,0 +1,1 @@
+Dots are volume-level paired effects. The same patients recur across training seeds; these dots must not be pooled as independent patients. Fold test partitions are disjoint but training sets overlap. Black lines indicate mean paired volume effects, without confirmatory p-values.
