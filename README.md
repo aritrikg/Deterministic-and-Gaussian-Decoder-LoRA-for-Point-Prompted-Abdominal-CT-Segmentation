@@ -1,9 +1,5 @@
-# BALoRA M.Tech Minor Project
+# Deterministic and Gaussian Decoder LoRA for Point-Prompted Abdominal CT Segmentation
 
-**Deterministic and Gaussian Decoder LoRA for Point-Prompted Abdominal CT Segmentation**
-
-Aritrik Ghosh · Supervisor Sourav Saha  
-Department of Computer Science and Engineering, Swami Vivekananda University
 
 ## Open the demonstration
 
